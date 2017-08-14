@@ -10,6 +10,7 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 .chat-container {
     position: absolute;
     left: 30px;
