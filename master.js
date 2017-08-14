@@ -155,6 +155,7 @@ var init = function() {
     insertCSS(cssRunning)
 }
 var timeMaster = function() {
+    send(randomInput())
     setInterval(function() {
         var a = randomTrueOrFalse()
         if (a) {
