@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #878773;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.chat-container {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ccc;
+    height: 600px;
+    width: 330px;
+    overflow: hidden;
+}
+ul {
+    height: 40px;
+    list-style-type: none;
+    padding: 10px 0px;
+    margin-left: 18px;
+    user-select: none;
+}
+ul > li {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: red;
+}
+li.dot-one {
+    background-color: #FF5F57;
+}
+li.dot-two {
+    background-color: #FFBD2E;
+}
+li.dot-three {
+    background-color: #28CA42;
+}
+li + li {
+    margin-left: 4px;
+}
+.chat-body {
+    background-color: #ddd;
+    height: 420px;
+    width: inherit;
+    padding: 10px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.chat-input {
+    border-top: 4px solid #eee;
+    background-color: #ddd;
+    height: 140px;
+    width: inherit;
+    padding: 10px;
+    position: relative;
+}
+textarea {
+    height: 120px;
+    width: 310px;
+    background-color: #ddd;
+    border: 0px;
+    resize: none;
+    outline: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+}
+.send-button {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #b48fbb;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px 10px;
+    margin: 0px 10px 10px 0px;
+    user-select: none;
+}
+.send-button:hover {
+    background-color: #d3acda;
+}
+.send-button:active {
+    background-color: #b48fbb;
+}
+.item {
+    color: #fff;
+    display: block;
+    position: absolute;
+    /*top:auto;*/
+    right: 0px;
+    top: 0px;
+    transform: translateX(100%);
+    font-size: 20px;
+}
+.speed-one {
+    animation-name: running;
+    animation-duration: 18s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+.speed-two {
+    animation-name: running;
+    animation-duration: 16s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+.speed-three {
+    animation-name: running;
+    animation-duration: 14s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+.speed-four {
+    animation-name: running;
+    animation-duration: 12s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+.speed-five {
+    animation-name: running;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+/* 下面这个由JavaScript动态生成 */
+/*@keyframes running {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-500px);
+    }
+}*/
