@@ -106,35 +106,35 @@ textarea {
 .speed-one {
     animation-name: running;
     animation-duration: 18s;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: 1;
 }
 .speed-two {
     animation-name: running;
     animation-duration: 16s;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: 1;
 }
 .speed-three {
     animation-name: running;
     animation-duration: 14s;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: 1;
 }
 .speed-four {
     animation-name: running;
     animation-duration: 12s;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: 1;
 }
 .speed-five {
     animation-name: running;
     animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: 1;
 }
